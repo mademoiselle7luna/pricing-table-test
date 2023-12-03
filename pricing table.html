@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pricing table</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .offer {
+            display: flex;
+            flex: wrap;
+            justify-content: center;
+        }
+
+        .plan {
+            padding: 2.5rem;
+            margin: 12px;
+            color: #C0C0C0;
+            background-color: #252626;
+            border-radius: 8px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .plan h2 {
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+
+        .plan .price {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            opacity: 45%;
+        }
+
+        .plan ul.details {
+            list-style-type: none;
+            text-align: left;
+        }
+
+        .plan ul.details li {
+            margin: 8px;
+        }
+
+        .plan li .fa-check {
+            color: #6ab04c;
+        }
+
+        .plan li .fa-times {
+            color: #c12;
+        }
+
+        .plan a {
+            display: block;
+            margin-top: 1.5rem;
+            padding: 11px 32px;
+            color:  #ffff;
+            background-color: #6ab074;
+            border-radius: 0.7rem;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .plan a:hover {
+            color: #234;
+        }
+
+        .plan.top {
+            border: 2px solid #6ab04c;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="offer">
+        <div class="plan top">
+            <h2>Basic</h2>
+            <div class="price">5$ / Month</div>
+            <ul class="details">
+                <li><i class="fa fa-check" aria-hidden="true"></i> 3 Websites </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> 1 User </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> 1 email account </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> 300MB SQL DB </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> 32 GB SSD Space </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> HIMAT's LOVE </li>
+                <li><i class="fa fa-times" aria-hidden="true"></i> 2G Bandwith </li>
+            </ul>
+            <a href="#">Subscribe</a>
+        </div>
+
+        <div class="plan">
+            <h2> Standard </h2>
+            <div class="price"> 15$ / Month</div>
+            <ul class="details">
+                <li><i class="fa fa-check" aria-hidden="true"></i> 15 Websites </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> 30 Users </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> 10 email accounts </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> 600MB SQL DB </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> 64 GB SSD Space </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> 10G Bandwidth </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> Priority Support </li>
+            </ul>
+            <a href="#">Subscribe</a>
+        </div>
+
+        <div class="plan">
+            <h2>Premium</h2>
+            <div class="price">50$ / Month</div>
+            <ul class="details">
+                <li><i class="fa fa-check" aria-hidden="true"></i> Unlimited Websites </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> 100 Users </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> Unlimited email accounts </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> 300MB SQL </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> 132 GB SSD Space </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> 200 GB Bandwith </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i> VIP Priority Support </li>
+            </ul>
+            <a href="#">Subscribe</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
